@@ -1,0 +1,689 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>A History of Construction in Curves</title>
+<meta name="description" content="A 27-slide deck by Héctor Ibarzábal on building form from the cave to the construction printer.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&amp;display=swap">
+<style>
+*{box-sizing:border-box}html,body{margin:0;background:#0B0B0C}
+.deck{max-width:1600px;margin:0 auto;padding:16px;display:flex;flex-direction:column;gap:16px}
+.fr{position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;background:#111}
+.sc{position:absolute;left:0;top:0;width:1920px;height:1080px;transform-origin:0 0}
+.sc>section{position:relative;width:1920px;height:1080px;box-sizing:border-box;overflow:hidden}
+.sc p,.sc h1,.sc h2,.sc h3,.sc ul,.sc ol{margin:0}
+x-shape{display:block;flex:none}x-shape[kind="ellipse"]{border-radius:50%}
+</style></head><body><main class="deck"><div class="fr" id="cover"><div class="sc"><section id="cover" data-transition="fade" style="background:#0F1012; color:#F0F0F0; font-family:'Archivo', Arial, sans-serif; padding:128px; display:flex; flex-direction:column; justify-content:start; gap:40px">
+<svg aria-label="Layered beads of a printed wall bending in a long curve" width="1920" height="1080" viewBox="0 0 1920 1080" style="position:absolute; left:0; top:0; width:1920px; height:1080px" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke-linecap="round"><path d="M-40,860 C340,700 620,1000 980,840 S1560,660 1960,820" stroke="#FF4F00" stroke-width="5"/><path d="M-40,874 C340,714 620,1014 980,854 S1560,674 1960,834" stroke="#FF4F00" stroke-width="5" opacity="0.8"/><path d="M-40,888 C340,728 620,1028 980,868 S1560,688 1960,848" stroke="#FF4F00" stroke-width="5" opacity="0.62"/><path d="M-40,902 C340,742 620,1042 980,882 S1560,702 1960,862" stroke="#FF4F00" stroke-width="5" opacity="0.46"/><path d="M-40,916 C340,756 620,1056 980,896 S1560,716 1960,876" stroke="#FF4F00" stroke-width="5" opacity="0.32"/><path d="M-40,930 C340,770 620,1070 980,910 S1560,730 1960,890" stroke="#FF4F00" stroke-width="5" opacity="0.2"/><path d="M-40,846 C340,686 620,986 980,826 S1560,646 1960,806" stroke="#FF4F00" stroke-width="5" opacity="0.8"/><path d="M-40,832 C340,672 620,972 980,812 S1560,632 1960,792" stroke="#FF4F00" stroke-width="5" opacity="0.62"/><path d="M-40,818 C340,658 620,958 980,798 S1560,618 1960,778" stroke="#FF4F00" stroke-width="5" opacity="0.46"/><path d="M-40,804 C340,644 620,944 980,784 S1560,604 1960,764" stroke="#FF4F00" stroke-width="5" opacity="0.32"/><path d="M-40,790 C340,630 620,930 980,770 S1560,590 1960,750" stroke="#FF4F00" stroke-width="5" opacity="0.2"/></g></svg>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#ABABAB">Spec deck · September 2026</p>
+<h1 style="font-family:'Archivo', Arial, sans-serif; font-size:124px; font-weight:800; line-height:0.94; letter-spacing:-5px; color:#9A9A9A; width:1500px">A history of construction, <span style="color:#F0F0F0">from the cave to the printer</span></h1>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:500; letter-spacing:2px; text-transform:uppercase; color:#D2D2D2">Héctor Ibarzábal Rodríguez · Rice MBA 2027</p>
+
+</section>
+</div></div><div class="fr" id="premise"><div class="sc"><section id="premise" data-transition="fade" style="background:#FF4F00; color:#111111; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:flex; flex-direction:column; justify-content:space-between; gap:48px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:#111111">The premise</p>
+<h1 style="font-family:'Archivo', Arial, sans-serif; font-size:104px; font-weight:800; line-height:0.98; letter-spacing:-4px; color:#111111; width:1560px">For most of history, a curve cost labor. The factory made the straight line cheap. A printer lays a curve at the price of a straight wall.</h1>
+<div style="display:flex; flex-direction:column; gap:12px; border-top:2px solid #111111; padding:24px 0 0 0; width:1200px">
+<p style="font-size:32px; line-height:1.35; color:#111111">“Unlike conventional construction methods, 3D printing can produce a curved wall for the same cost as a straight one.”</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:500; color:#111111">Texas Architect, “Print Preview,” May 2023</p>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#111111">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#111111">02 / 27</p>
+
+</section>
+</div></div><div class="fr" id="record"><div class="sc"><section id="record" data-transition="fade" style="background:#FAFAFA; color:#111111; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:flex; flex-direction:column; gap:40px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#595959">The record · linear scale</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:72px; font-weight:800; line-height:1.0; letter-spacing:-2.5px; color:#8A8A8A; width:1664px">The human record, <span style="color:#111111">drawn at true scale</span></h2>
+<div style="position:relative; width:1664px; height:330px">
+<svg aria-label="A horizontal line spanning 67,800 years with dated buildings marked, and a thin black sliver at the right end for the years since the 1830s" width="1664" height="330" viewBox="0 0 1664 330" style="position:absolute; left:0; top:0; width:1664px; height:330px" xmlns="http://www.w3.org/2000/svg">
+<line x1="32" y1="190" x2="1632" y2="190" stroke="#111111" stroke-width="2"/>
+<g stroke="#111111" stroke-width="2"><line x1="32" y1="176" x2="32" y2="204"/><line x1="452" y1="180" x2="452" y2="200"/><line x1="1042" y1="180" x2="1042" y2="200"/><line x1="1396" y1="180" x2="1396" y2="200"/><line x1="1632" y1="176" x2="1632" y2="204"/></g>
+<circle cx="32" cy="190" r="12" fill="#FAFAFA" stroke="#111111" stroke-width="3"/>
+<g fill="#FF4F00"><circle cx="1042" cy="190" r="12"/><circle cx="1358" cy="190" r="12"/><circle cx="1490" cy="190" r="12"/><circle cx="1509" cy="190" r="12"/><circle cx="1587" cy="190" r="12"/></g>
+<rect x="1400" y="178" width="22" height="22" fill="#111111"/>
+<rect x="1626" y="120" width="6" height="140" fill="#111111"/>
+<polyline points="1629,120 1629,60 1520,60" fill="none" stroke="#111111" stroke-width="2"/>
+</svg>
+<p style="position:absolute; left:1060px; top:36px; width:450px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; color:#111111">1830s to today</p>
+<p style="position:absolute; left:0px; top:230px; width:260px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#333333">67,800 yrs ago</p>
+<p style="position:absolute; left:342px; top:230px; width:220px; text-align:center; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#333333">50,000</p>
+<p style="position:absolute; left:932px; top:230px; width:220px; text-align:center; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#333333">25,000</p>
+<p style="position:absolute; left:1286px; top:230px; width:220px; text-align:center; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#333333">10,000</p>
+<p style="position:absolute; left:1524px; top:230px; width:140px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#333333">Today</p>
+</div>
+<div style="display:flex; flex-direction:row; gap:48px; border-top:1px solid #111111; padding:24px 0 0 0">
+<div style="display:flex; flex-direction:row; gap:14px; align-items:center"><x-shape kind="ellipse" style="width:24px; height:24px; background:#FF4F00"></x-shape><p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#333333">Round or curved form</p></div>
+<div style="display:flex; flex-direction:row; gap:14px; align-items:center"><div style="width:22px; height:22px; background:#111111"></div><p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#333333">Rectangular form</p></div>
+<div style="display:flex; flex-direction:row; gap:14px; align-items:center"><x-shape kind="ellipse" style="width:24px; height:24px; background:#FAFAFA; border:3px solid #111111"></x-shape><p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#333333">Oldest dated hand stencil</p></div>
+</div>
+<div style="flex:1"></div>
+<div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:0px">
+<div style="display:flex; flex-direction:column; gap:6px; padding:0 32px 0 0"><p style="font-size:64px; font-weight:800; letter-spacing:-2px; line-height:1.0">67,800 yrs</p><p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#595959">Since the oldest dated hand stencil</p></div>
+<div style="display:flex; flex-direction:column; gap:6px; padding:0 32px; border-left:1px solid #E4E4E4"><p style="font-size:64px; font-weight:800; letter-spacing:-2px; line-height:1.0">~190 yrs</p><p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#595959">Since the balloon frame, 1830s</p></div>
+<div style="display:flex; flex-direction:column; gap:6px; padding:0 32px; border-left:1px solid #E4E4E4"><p style="font-size:64px; font-weight:800; letter-spacing:-2px; line-height:1.0">0.3%</p><p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#595959">Share of the span · arithmetic</p></div>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#6B6B6B">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#6B6B6B">03 / 27</p>
+
+</section>
+</div></div><div class="fr" id="cave"><div class="sc"><section id="cave" data-transition="fade" style="background:#FAFAFA; color:#111111; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:grid; grid-template-columns:600px 1000px; gap:64px">
+<div style="display:flex; flex-direction:column; gap:28px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#595959">01 · Muna Island, Sulawesi</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1.0; letter-spacing:-2px; color:#8A8A8A">Shelter <span style="color:#111111">in the rock</span></h2>
+<div style="display:flex; flex-direction:column; gap:8px; border-top:2px solid #111111; padding:24px 0 0 0">
+<p style="font-size:104px; font-weight:800; letter-spacing:-4px; line-height:1.0; color:#111111">67,800</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#595959">Years · oldest dated hand stencil</p>
+</div>
+<p style="font-size:28px; line-height:1.4; color:#333333">A hand pressed to the wall of Liang Metanduno cave, outlined in pigment. The date is a minimum age.</p>
+<div style="flex:1"></div>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; line-height:1.35; color:#6B6B6B">Oktaviana et al., Nature, 21 Jan 2026</p>
+</div>
+<div style="display:flex; align-items:center; justify-content:center">
+<svg aria-label="Section through a hillside with a cave cavity outlined in orange" width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+<path d="M0,720 L0,300 C120,220 260,150 420,140 C600,128 780,190 1000,260 L1000,720 Z" fill="#EDEDED"/>
+<path d="M0,300 C120,220 260,150 420,140 C600,128 780,190 1000,260" fill="none" stroke="#111111" stroke-width="2"/>
+<g fill="none" stroke="#BDBDBD" stroke-width="1.5"><path d="M0,360 C200,330 400,370 600,340 S900,320 1000,350"/><path d="M0,690 C220,670 420,700 620,680 S900,670 1000,690"/><path d="M840,420 C880,410 940,430 1000,420"/><path d="M840,520 C880,505 940,530 1000,515"/><path d="M0,500 C20,495 40,500 50,498"/></g>
+<path d="M60,640 C60,520 120,420 240,380 C360,340 520,360 640,420 C740,470 800,560 820,640 Z" fill="#FAFAFA" stroke="#FF4F00" stroke-width="4"/>
+<line x1="60" y1="640" x2="820" y2="640" stroke="#111111" stroke-width="2"/>
+<g fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round"><path d="M300,560 L300,505"/><path d="M300,505 C300,470 340,470 340,505 L340,560"/><path d="M340,505 L352,450"/><path d="M320,478 L322,428"/><path d="M308,485 L296,440"/><path d="M332,480 L342,432"/></g>
+</svg>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#6B6B6B">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#6B6B6B">04 / 27</p>
+
+</section>
+</div></div><div class="fr" id="hut"><div class="sc"><section id="hut" data-transition="fade" style="background:#FAFAFA; color:#111111; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:grid; grid-template-columns:600px 1000px; gap:64px">
+<div style="display:flex; flex-direction:column; gap:28px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#595959">02 · Kostenki, Russia</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1.0; letter-spacing:-2px; color:#8A8A8A">Houses <span style="color:#111111">built in a ring</span></h2>
+<div style="display:flex; flex-direction:column; gap:8px; border-top:2px solid #111111; padding:24px 0 0 0">
+<p style="font-size:104px; font-weight:800; letter-spacing:-4px; line-height:1.0; color:#111111">60</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#595959">Mammoths, at least, in one ring</p>
+</div>
+<p style="font-size:28px; line-height:1.4; color:#333333">A ring of bones about 40 feet across, about 25,000 years old. At Mezhyrich, Ukraine, four round mammoth-bone dwellings date to about 18,000 years ago.</p>
+<div style="flex:1"></div>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; line-height:1.35; color:#6B6B6B">Pryor et al., Antiquity, 2020 · Chu et al., Open Research Europe, 2025</p>
+</div>
+<div style="display:flex; align-items:center; justify-content:center">
+<svg aria-label="Plan of a ring of stacked mammoth bones with an orange inner edge and a hearth at the center" width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+<circle cx="500" cy="360" r="262" fill="none" stroke="#111111" stroke-width="44" stroke-dasharray="22 12"/>
+<circle cx="500" cy="360" r="262" fill="none" stroke="#FAFAFA" stroke-width="3"/>
+<circle cx="500" cy="360" r="232" fill="none" stroke="#FF4F00" stroke-width="4"/>
+<circle cx="500" cy="360" r="40" fill="#EDEDED" stroke="#111111" stroke-width="2"/>
+<g fill="#111111"><circle cx="412" cy="300" r="6"/><circle cx="600" cy="420" r="6"/><circle cx="560" cy="270" r="6"/><circle cx="430" cy="450" r="6"/></g>
+<g stroke="#111111" stroke-width="2"><line x1="238" y1="680" x2="762" y2="680"/><line x1="238" y1="668" x2="238" y2="692"/><line x1="762" y1="668" x2="762" y2="692"/></g>
+</svg>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#6B6B6B">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#6B6B6B">05 / 27</p>
+
+</section>
+</div></div><div class="fr" id="gobekli"><div class="sc"><section id="gobekli" data-transition="fade" style="background:#FAFAFA; color:#111111; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:grid; grid-template-columns:600px 1000px; gap:64px">
+<div style="display:flex; flex-direction:column; gap:28px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#595959">03 · Şanlıurfa, Türkiye</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1.0; letter-spacing:-2px; color:#8A8A8A">Göbekli Tepe, <span style="color:#111111">rings of standing stone</span></h2>
+<div style="display:flex; flex-direction:column; gap:8px; border-top:2px solid #111111; padding:24px 0 0 0">
+<p style="font-size:104px; font-weight:800; letter-spacing:-4px; line-height:1.0; color:#111111">9600 BCE</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#595959">Earliest date · to 8200 BCE</p>
+</div>
+<p style="font-size:28px; line-height:1.4; color:#333333">Round-oval and rectangular megalithic enclosures. The T-shaped pillars stand up to 5.5 m tall.</p>
+<div style="flex:1"></div>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; line-height:1.35; color:#6B6B6B">UNESCO World Heritage Centre, list no. 1572</p>
+</div>
+<div style="display:flex; align-items:center; justify-content:center">
+<svg aria-label="Plan of a round enclosure with T-shaped pillars set into its wall and two tall pillars at the center" width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+<defs><rect id="p" x="490" y="92" width="20" height="44" fill="#111111"/></defs>
+<circle cx="500" cy="360" r="300" fill="#EDEDED" stroke="#111111" stroke-width="2"/>
+<circle cx="500" cy="360" r="238" fill="#FAFAFA" stroke="#FF4F00" stroke-width="4"/>
+<use href="#p" transform="rotate(0 500 360)"/><use href="#p" transform="rotate(30 500 360)"/><use href="#p" transform="rotate(60 500 360)"/><use href="#p" transform="rotate(90 500 360)"/><use href="#p" transform="rotate(120 500 360)"/><use href="#p" transform="rotate(150 500 360)"/><use href="#p" transform="rotate(180 500 360)"/><use href="#p" transform="rotate(210 500 360)"/><use href="#p" transform="rotate(240 500 360)"/><use href="#p" transform="rotate(270 500 360)"/><use href="#p" transform="rotate(300 500 360)"/><use href="#p" transform="rotate(330 500 360)"/>
+<rect x="452" y="322" width="26" height="76" fill="#111111"/><rect x="522" y="322" width="26" height="76" fill="#111111"/>
+<g fill="none" stroke="#BDBDBD" stroke-width="1.5"><circle cx="500" cy="360" r="320"/><circle cx="500" cy="360" r="340"/></g>
+</svg>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#6B6B6B">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#6B6B6B">06 / 27</p>
+
+</section>
+</div></div><div class="fr" id="catalhoyuk"><div class="sc"><section id="catalhoyuk" data-transition="fade" style="background:#FAFAFA; color:#111111; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:grid; grid-template-columns:600px 1000px; gap:64px">
+<div style="display:flex; flex-direction:column; gap:28px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#595959">04 · Konya Plain, Türkiye</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1.0; letter-spacing:-2px; color:#8A8A8A">The rectangle <span style="color:#111111">arrives with private storage</span></h2>
+<div style="display:flex; flex-direction:column; gap:8px; border-top:2px solid #111111; padding:24px 0 0 0">
+<p style="font-size:104px; font-weight:800; letter-spacing:-4px; line-height:1.0; color:#111111">7400 BCE</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#595959">Çatalhöyük · first of 18 levels</p>
+</div>
+<p style="font-size:28px; line-height:1.4; color:#333333">Mud-brick houses built back to back, entered through the roof. Kent Flannery traced the shift from round huts with shared storage to rectangular family houses.</p>
+<div style="flex:1"></div>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; line-height:1.35; color:#6B6B6B">UNESCO no. 1405 · Flannery, American Antiquity, 2002</p>
+</div>
+<div style="display:flex; align-items:center; justify-content:center">
+<svg aria-label="Plan comparison: a cluster of round huts on the left, a grid of rectangular houses built back to back on the right" width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+<g fill="#FAFAFA" stroke="#FF4F00" stroke-width="4"><circle cx="170" cy="250" r="62"/><circle cx="300" cy="330" r="54"/><circle cx="150" cy="420" r="58"/><circle cx="270" cy="480" r="50"/><circle cx="360" cy="210" r="44"/></g>
+<circle cx="250" cy="370" r="22" fill="#EDEDED" stroke="#111111" stroke-width="2"/>
+<g stroke="#9A9A9A" stroke-width="2" fill="none"><line x1="440" y1="360" x2="520" y2="360"/><polyline points="506,348 520,360 506,372"/></g>
+<rect x="560" y="150" width="390" height="420" fill="#EDEDED" stroke="#111111" stroke-width="4"/>
+<g stroke="#111111" stroke-width="4"><line x1="690" y1="150" x2="690" y2="570"/><line x1="820" y1="150" x2="820" y2="570"/><line x1="560" y1="290" x2="950" y2="290"/><line x1="560" y1="430" x2="950" y2="430"/></g>
+<g fill="#111111"><rect x="600" y="180" width="22" height="22"/><rect x="740" y="190" width="22" height="22"/><rect x="870" y="176" width="22" height="22"/><rect x="610" y="322" width="22" height="22"/><rect x="760" y="330" width="22" height="22"/><rect x="880" y="316" width="22" height="22"/><rect x="598" y="468" width="22" height="22"/><rect x="740" y="476" width="22" height="22"/><rect x="872" y="462" width="22" height="22"/></g>
+</svg>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#6B6B6B">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#6B6B6B">07 / 27</p>
+
+</section>
+</div></div><div class="fr" id="hypogeum"><div class="sc"><section id="hypogeum" data-transition="fade" style="background:#FAFAFA; color:#111111; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:grid; grid-template-columns:600px 1000px; gap:64px">
+<div style="display:flex; flex-direction:column; gap:28px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#595959">05 · Paola, Malta</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1.0; letter-spacing:-2px; color:#8A8A8A">A temple <span style="color:#111111">carved downward</span></h2>
+<div style="display:flex; flex-direction:column; gap:8px; border-top:2px solid #111111; padding:24px 0 0 0">
+<p style="font-size:104px; font-weight:800; letter-spacing:-4px; line-height:1.0; color:#111111">10.6 m</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#595959">Deepest room below the road</p>
+</div>
+<p style="font-size:28px; line-height:1.4; color:#333333">The Ħal Saflieni Hypogeum. Three levels cut into limestone, in use from 4000 to 1500 BC.</p>
+<div style="flex:1"></div>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; line-height:1.35; color:#6B6B6B">Heritage Malta</p>
+</div>
+<div style="display:flex; align-items:center; justify-content:center">
+<svg aria-label="Section through rock showing three levels of lobed chambers descending below ground, with a depth dimension" width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="120" width="1000" height="600" fill="#EDEDED"/>
+<line x1="0" y1="120" x2="1000" y2="120" stroke="#111111" stroke-width="2"/>
+<g stroke="#111111" stroke-width="1.5"><line x1="40" y1="120" x2="20" y2="140"/><line x1="80" y1="120" x2="60" y2="140"/><line x1="120" y1="120" x2="100" y2="140"/><line x1="160" y1="120" x2="140" y2="140"/><line x1="880" y1="120" x2="860" y2="140"/><line x1="920" y1="120" x2="900" y2="140"/><line x1="960" y1="120" x2="940" y2="140"/></g>
+<g fill="#FAFAFA" stroke="#FF4F00" stroke-width="4">
+<path d="M190,160 C160,200 170,260 230,270 C300,280 330,240 380,250 C430,262 470,280 520,262 C570,244 560,180 520,160 C470,142 420,170 370,160 C310,148 240,140 190,160 Z"/>
+<path d="M300,330 C260,370 270,440 340,448 C410,456 430,410 490,420 C560,432 600,470 660,440 C720,410 720,340 660,318 C610,300 560,330 500,320 C440,310 360,300 300,330 Z"/>
+<path d="M480,510 C440,540 450,600 510,610 C570,620 610,590 660,600 C720,612 780,590 780,545 C780,505 730,488 680,498 C620,510 540,480 480,510 Z"/>
+</g>
+<g fill="none" stroke="#111111" stroke-width="2"><polyline points="455,262 455,285 470,285 470,305 485,305 485,322"/><polyline points="600,438 600,462 615,462 615,482 630,482 630,500"/><line x1="230" y1="120" x2="230" y2="162"/><line x1="260" y1="120" x2="260" y2="152"/></g>
+<g stroke="#111111" stroke-width="2"><line x1="880" y1="120" x2="880" y2="612"/><line x1="864" y1="612" x2="896" y2="612"/><line x1="864" y1="120" x2="896" y2="120"/></g>
+</svg>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#6B6B6B">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#6B6B6B">08 / 27</p>
+
+</section>
+</div></div><div class="fr" id="newgrange"><div class="sc"><section id="newgrange" data-transition="fade" style="background:#FAFAFA; color:#111111; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:grid; grid-template-columns:600px 1000px; gap:64px">
+<div style="display:flex; flex-direction:column; gap:28px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#595959">06 · Brú na Bóinne, Ireland</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1.0; letter-spacing:-2px; color:#8A8A8A">A tomb <span style="color:#111111">aimed at the winter sun</span></h2>
+<div style="display:flex; flex-direction:column; gap:8px; border-top:2px solid #111111; padding:24px 0 0 0">
+<p style="font-size:104px; font-weight:800; letter-spacing:-4px; line-height:1.0; color:#111111">19 m</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#595959">Passage, entrance to chamber</p>
+</div>
+<p style="font-size:28px; line-height:1.4; color:#333333">Newgrange, built by farmers about 3200 BCE. At the winter solstice, sunlight enters through a roof box and reaches the chamber.</p>
+<div style="flex:1"></div>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; line-height:1.35; color:#6B6B6B">Britannica · World Heritage Ireland</p>
+</div>
+<div style="display:flex; align-items:center; justify-content:center">
+<svg aria-label="Section through a round earth mound with a stone passage and chamber, and a line of sunlight entering through a box above the entrance" width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+<path d="M232,560 L232,488 C300,400 430,330 580,326 C730,330 860,390 960,560 Z" fill="#EDEDED" stroke="#111111" stroke-width="2"/>
+<line x1="0" y1="560" x2="1000" y2="560" stroke="#111111" stroke-width="2"/>
+<g fill="#FAFAFA" stroke="#111111" stroke-width="2"><path d="M232,530 L610,490 L610,520 L232,560 Z"/><path d="M600,548 L600,500 L612,500 L612,470 L626,470 L626,442 L642,442 L642,420 L700,420 L700,442 L716,442 L716,470 L730,470 L730,500 L742,500 L742,548 Z"/></g>
+<rect x="222" y="505" width="30" height="14" fill="#111111"/>
+<circle cx="46" cy="512" r="26" fill="none" stroke="#FF4F00" stroke-width="4"/>
+<line x1="72" y1="512" x2="668" y2="508" stroke="#FF4F00" stroke-width="4"/>
+<g fill="#111111"><rect x="206" y="548" width="26" height="12"/><rect x="908" y="548" width="26" height="12"/></g>
+</svg>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#6B6B6B">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#6B6B6B">09 / 27</p>
+
+</section>
+</div></div><div class="fr" id="pantheon"><div class="sc"><section id="pantheon" data-transition="fade" style="background:#FAFAFA; color:#111111; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:grid; grid-template-columns:600px 1000px; gap:64px">
+<div style="display:flex; flex-direction:column; gap:28px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#595959">07 · Rome · about 126 CE</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1.0; letter-spacing:-2px; color:#8A8A8A">Concrete, <span style="color:#111111">poured around a sphere</span></h2>
+<div style="display:flex; flex-direction:column; gap:8px; border-top:2px solid #111111; padding:24px 0 0 0">
+<p style="font-size:104px; font-weight:800; letter-spacing:-4px; line-height:1.0; color:#111111">43.3 m</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#595959">Dome diameter, equal to its height</p>
+</div>
+<p style="font-size:28px; line-height:1.4; color:#333333">The Pantheon. The oculus is 8.2 m across. It is still the largest unreinforced concrete dome in the world.</p>
+<div style="flex:1"></div>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; line-height:1.35; color:#6B6B6B">Chapter of Santa Maria ad Martyres, pantheonroma.com · Britannica</p>
+</div>
+<div style="display:flex; align-items:center; justify-content:center">
+<svg aria-label="Section through the Pantheon: a drum and dome with a full sphere inscribed in orange, the portico on the left" width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+<rect x="250" y="400" width="30" height="240" fill="#EDEDED" stroke="#111111" stroke-width="2"/>
+<rect x="720" y="400" width="30" height="240" fill="#EDEDED" stroke="#111111" stroke-width="2"/>
+<path d="M250,400 A250,250 0 0 1 478,151 L478,181 A220,220 0 0 0 280,400 Z" fill="#EDEDED" stroke="#111111" stroke-width="2"/>
+<path d="M750,400 A250,250 0 0 0 522,151 L522,181 A220,220 0 0 1 720,400 Z" fill="#EDEDED" stroke="#111111" stroke-width="2"/>
+<circle cx="500" cy="400" r="220" fill="none" stroke="#FF4F00" stroke-width="4"/>
+<line x1="40" y1="640" x2="960" y2="640" stroke="#111111" stroke-width="2"/>
+<g stroke="#111111" stroke-width="2" fill="none"><line x1="70" y1="440" x2="250" y2="440"/><line x1="70" y1="440" x2="250" y2="388"/><line x1="96" y1="440" x2="96" y2="640"/><line x1="140" y1="440" x2="140" y2="640"/><line x1="184" y1="440" x2="184" y2="640"/><line x1="228" y1="440" x2="228" y2="640"/></g>
+<g stroke="#111111" stroke-width="2"><line x1="870" y1="180" x2="870" y2="620"/><line x1="856" y1="180" x2="884" y2="180"/><line x1="856" y1="620" x2="884" y2="620"/><line x1="280" y1="680" x2="720" y2="680"/><line x1="280" y1="668" x2="280" y2="692"/><line x1="720" y1="668" x2="720" y2="692"/></g>
+</svg>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#6B6B6B">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#6B6B6B">10 / 27</p>
+
+</section>
+</div></div><div class="fr" id="kandariya"><div class="sc"><section id="kandariya" data-transition="fade" style="background:#FAFAFA; color:#111111; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:grid; grid-template-columns:600px 1000px; gap:64px">
+<div style="display:flex; flex-direction:column; gap:28px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#595959">08 · Khajuraho, India</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1.0; letter-spacing:-2px; color:#8A8A8A">A tower <span style="color:#111111">built of smaller towers</span></h2>
+<div style="display:flex; flex-direction:column; gap:8px; border-top:2px solid #111111; padding:24px 0 0 0">
+<p style="font-size:104px; font-weight:800; letter-spacing:-4px; line-height:1.0; color:#111111">84</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#595959">Small spires around the main one</p>
+</div>
+<p style="font-size:28px; line-height:1.4; color:#333333">Kandariya Mahadeva, early 11th century, Chandela dynasty. The spire is 31 m tall and repeats its own shape at smaller scales.</p>
+<div style="flex:1"></div>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; line-height:1.35; color:#6B6B6B">UNESCO no. 240 · Britannica · MP Tourism</p>
+</div>
+<div style="display:flex; align-items:center; justify-content:center">
+<svg aria-label="Elevation of a temple spire made of smaller copies of itself, the main spire outlined in orange" width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+<rect x="140" y="620" width="720" height="30" fill="#EDEDED" stroke="#111111" stroke-width="2"/>
+<rect x="100" y="650" width="800" height="30" fill="#EDEDED" stroke="#111111" stroke-width="2"/>
+<path d="M350,620 L356,580 L362,540 L369,500 L375,460 L382,420 L390,380 L398,340 L406,300 L415,260 L425,220 L436,180 L449,140 L465,100 L500,60 L535,100 L551,140 L564,180 L575,220 L585,260 L594,300 L602,340 L610,380 L618,420 L625,460 L631,500 L638,540 L644,580 L650,620Z" fill="#FAFAFA" stroke="#FF4F00" stroke-width="4"/>
+<ellipse cx="500" cy="56" rx="22" ry="8" fill="#FAFAFA" stroke="#111111" stroke-width="2"/>
+<g fill="#FAFAFA" stroke="#111111" stroke-width="2">
+<path d="M390,380 L392,367 L395,354 L397,341 L400,328 L403,315 L406,302 L409,289 L413,276 L419,263 L430,250 L441,263 L447,276 L451,289 L454,302 L457,315 L460,328 L463,341 L465,354 L468,367 L470,380Z"/>
+<path d="M530,380 L532,367 L535,354 L537,341 L540,328 L543,315 L546,302 L549,289 L553,276 L559,263 L570,250 L581,263 L587,276 L591,289 L594,302 L597,315 L600,328 L603,341 L605,354 L608,367 L610,380Z"/>
+<path d="M250,620 L253,594 L257,567 L260,541 L264,514 L267,488 L271,461 L275,435 L280,409 L285,382 L290,356 L296,329 L303,303 L311,276 L330,250 L349,276 L357,303 L364,329 L370,356 L375,382 L380,409 L385,435 L389,461 L393,488 L396,514 L400,541 L403,567 L407,594 L410,620Z"/>
+<path d="M590,620 L593,594 L597,567 L600,541 L604,514 L607,488 L611,461 L615,435 L620,409 L625,382 L630,356 L636,329 L643,303 L651,276 L670,250 L689,276 L697,303 L704,329 L710,356 L715,382 L720,409 L725,435 L729,461 L733,488 L736,514 L740,541 L743,567 L747,594 L750,620Z"/>
+<path d="M200,620 L203,598 L206,576 L209,554 L212,532 L216,510 L220,488 L224,466 L229,444 L236,422 L250,400 L264,422 L271,444 L276,466 L280,488 L284,510 L288,532 L291,554 L294,576 L297,598 L300,620Z"/>
+<path d="M700,620 L703,598 L706,576 L709,554 L712,532 L716,510 L720,488 L724,466 L729,444 L736,422 L750,400 L764,422 L771,444 L776,466 L780,488 L784,510 L788,532 L791,554 L794,576 L797,598 L800,620Z"/>
+<path d="M295,620 L299,587 L303,554 L307,521 L311,489 L315,456 L320,423 L325,390 L330,357 L336,324 L342,291 L349,259 L357,226 L368,193 L390,160 L412,193 L423,226 L431,259 L438,291 L444,324 L450,357 L455,390 L460,423 L465,456 L469,489 L473,521 L477,554 L481,587 L485,620Z"/>
+<path d="M515,620 L519,587 L523,554 L527,521 L531,489 L535,456 L540,423 L545,390 L550,357 L556,324 L562,291 L569,259 L577,226 L588,193 L610,160 L632,193 L643,226 L651,259 L658,291 L664,324 L670,357 L675,390 L680,423 L685,456 L689,489 L693,521 L697,554 L701,587 L705,620Z"/>
+</g>
+</svg>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#6B6B6B">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#6B6B6B">11 / 27</p>
+
+</section>
+</div></div><div class="fr" id="chartres"><div class="sc"><section id="chartres" data-transition="fade" style="background:#FAFAFA; color:#111111; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:grid; grid-template-columns:600px 1000px; gap:64px">
+<div style="display:flex; flex-direction:column; gap:28px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#595959">09 · Chartres, France</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1.0; letter-spacing:-2px; color:#8A8A8A">A cathedral <span style="color:#111111">rebuilt in twenty-six years</span></h2>
+<div style="display:flex; flex-direction:column; gap:8px; border-top:2px solid #111111; padding:24px 0 0 0">
+<p style="font-size:104px; font-weight:800; letter-spacing:-4px; line-height:1.0; color:#111111">1194</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#595959">The fire that started the rebuild</p>
+</div>
+<p style="font-size:28px; line-height:1.4; color:#333333">Chartres Cathedral, begun in 1145 and largely rebuilt after the fire. Its rose windows set stone tracery in rings of circles.</p>
+<div style="flex:1"></div>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; line-height:1.35; color:#6B6B6B">UNESCO World Heritage Centre, list no. 81</p>
+</div>
+<div style="display:flex; align-items:center; justify-content:center">
+<svg aria-label="Elevation of a rose window: a central circle, a ring of twelve circles and an outer ring of twenty-four small circles" width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+<circle cx="500" cy="360" r="330" fill="#EDEDED" stroke="#111111" stroke-width="2"/>
+<circle cx="500" cy="360" r="310" fill="#FAFAFA" stroke="#FF4F00" stroke-width="4"/>
+<g fill="none" stroke="#111111" stroke-width="2">
+<circle cx="500" cy="360" r="86"/><circle cx="500" cy="360" r="236"/>
+<circle cx="500" cy="190" r="62"/><circle cx="585" cy="213" r="62"/><circle cx="647" cy="275" r="62"/><circle cx="670" cy="360" r="62"/><circle cx="647" cy="445" r="62"/><circle cx="585" cy="507" r="62"/><circle cx="500" cy="530" r="62"/><circle cx="415" cy="507" r="62"/><circle cx="353" cy="445" r="62"/><circle cx="330" cy="360" r="62"/><circle cx="353" cy="275" r="62"/><circle cx="415" cy="213" r="62"/>
+<circle cx="536" cy="90" r="30"/><circle cx="604" cy="109" r="30"/><circle cx="666" cy="144" r="30"/><circle cx="716" cy="194" r="30"/><circle cx="751" cy="256" r="30"/><circle cx="770" cy="324" r="30"/><circle cx="770" cy="396" r="30"/><circle cx="751" cy="464" r="30"/><circle cx="716" cy="526" r="30"/><circle cx="666" cy="576" r="30"/><circle cx="604" cy="611" r="30"/><circle cx="536" cy="630" r="30"/><circle cx="464" cy="630" r="30"/><circle cx="396" cy="611" r="30"/><circle cx="334" cy="576" r="30"/><circle cx="284" cy="526" r="30"/><circle cx="249" cy="464" r="30"/><circle cx="230" cy="396" r="30"/><circle cx="230" cy="324" r="30"/><circle cx="249" cy="256" r="30"/><circle cx="284" cy="194" r="30"/><circle cx="334" cy="144" r="30"/><circle cx="396" cy="109" r="30"/><circle cx="464" cy="90" r="30"/>
+</g>
+<circle cx="500" cy="360" r="30" fill="#111111"/>
+</svg>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#6B6B6B">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#6B6B6B">12 / 27</p>
+
+</section>
+</div></div><div class="fr" id="trulli"><div class="sc"><section id="trulli" data-transition="fade" style="background:#FAFAFA; color:#111111; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:grid; grid-template-columns:600px 1000px; gap:64px">
+<div style="display:flex; flex-direction:column; gap:28px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#595959">10 · Alberobello, Italy</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1.0; letter-spacing:-2px; color:#8A8A8A">Roofs <span style="color:#111111">stacked without mortar</span></h2>
+<div style="display:flex; flex-direction:column; gap:8px; border-top:2px solid #111111; padding:24px 0 0 0">
+<p style="font-size:104px; font-weight:800; letter-spacing:-4px; line-height:1.0; color:#111111">1,500+</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#595959">Trulli in Alberobello</p>
+</div>
+<p style="font-size:28px; line-height:1.4; color:#333333">Dry-stone houses with conical roofs of corbelled limestone slabs. Each course sits a little inside the one below. The oldest date from the mid-14th century.</p>
+<div style="flex:1"></div>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; line-height:1.35; color:#6B6B6B">UNESCO World Heritage Centre, list no. 787</p>
+</div>
+<div style="display:flex; align-items:center; justify-content:center">
+<svg aria-label="Section through a trullo: thick stone walls and a conical roof built of courses that step inward, the cone outlined in orange" width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+<rect x="230" y="400" width="80" height="240" fill="#EDEDED" stroke="#111111" stroke-width="2"/>
+<rect x="690" y="400" width="80" height="240" fill="#EDEDED" stroke="#111111" stroke-width="2"/>
+<g fill="#EDEDED" stroke="#111111" stroke-width="1.5"><rect x="270" y="382" width="460" height="18"/><rect x="284" y="364" width="432" height="18"/><rect x="298" y="346" width="404" height="18"/><rect x="312" y="328" width="376" height="18"/><rect x="326" y="310" width="348" height="18"/><rect x="340" y="292" width="320" height="18"/><rect x="354" y="274" width="292" height="18"/><rect x="368" y="256" width="264" height="18"/><rect x="382" y="238" width="236" height="18"/><rect x="396" y="220" width="208" height="18"/><rect x="410" y="202" width="180" height="18"/><rect x="424" y="184" width="152" height="18"/><rect x="438" y="166" width="124" height="18"/><rect x="452" y="148" width="96" height="18"/><rect x="466" y="130" width="68" height="18"/><rect x="480" y="112" width="40" height="18"/></g>
+<path d="M340,400 L340,382 L354,382 L354,364 L368,364 L368,346 L382,346 L382,328 L396,328 L396,310 L410,310 L410,292 L424,292 L424,274 L438,274 L438,256 L452,256 L452,238 L466,238 L466,220 L480,220 L480,202 L520,202 L520,220 L534,220 L534,238 L548,238 L548,256 L562,256 L562,274 L576,274 L576,292 L590,292 L590,310 L604,310 L604,328 L618,328 L618,346 L632,346 L632,364 L646,364 L646,382 L660,382 L660,400 Z" fill="#FAFAFA" stroke="#111111" stroke-width="1.5"/>
+<polyline points="250,402 500,96 750,402" fill="none" stroke="#FF4F00" stroke-width="4"/>
+<line x1="500" y1="96" x2="500" y2="76" stroke="#111111" stroke-width="2"/><circle cx="500" cy="66" r="12" fill="#FAFAFA" stroke="#111111" stroke-width="2"/>
+<line x1="120" y1="640" x2="880" y2="640" stroke="#111111" stroke-width="2"/>
+</svg>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#6B6B6B">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#6B6B6B">13 / 27</p>
+
+</section>
+</div></div><div class="fr" id="darbimam"><div class="sc"><section id="darbimam" data-transition="fade" style="background:#FAFAFA; color:#111111; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:grid; grid-template-columns:600px 1000px; gap:64px">
+<div style="display:flex; flex-direction:column; gap:28px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#595959">11 · Isfahan, Iran · 1453</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1.0; letter-spacing:-2px; color:#8A8A8A">A tiling <span style="color:#111111">five centuries before Penrose</span></h2>
+<div style="display:flex; flex-direction:column; gap:8px; border-top:2px solid #111111; padding:24px 0 0 0">
+<p style="font-size:104px; font-weight:800; letter-spacing:-4px; line-height:1.0; color:#111111">521</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#595959">Years, 1453 to 1974 · arithmetic</p>
+</div>
+<p style="font-size:28px; line-height:1.4; color:#333333">The girih tiles of the Darb-i Imam shrine form a pattern with nearly perfect quasicrystalline order. Physicists Peter Lu and Paul Steinhardt showed it in 2007.</p>
+<div style="flex:1"></div>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; line-height:1.35; color:#6B6B6B">Lu and Steinhardt, Science, 23 Feb 2007</p>
+</div>
+<div style="display:flex; align-items:center; justify-content:center">
+<svg aria-label="A ten-pointed star rosette inside a decagon, one star outlined in orange" width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+<path d="M500,60 L676,117 L785,267 L785,453 L676,603 L500,660 L324,603 L215,453 L215,267 L324,117Z" fill="#EDEDED" stroke="#111111" stroke-width="2"/>
+<path d="M500,60 L676,603 L215,267 L785,267 L324,603ZM676,117 L500,660 L324,117 L785,453 L215,453Z" fill="none" stroke="#111111" stroke-width="2"/>
+<path d="M500,60 L785,453 L324,603 L324,117 L785,267 L500,660 L215,267 L676,117 L676,603 L215,453Z" fill="none" stroke="#FF4F00" stroke-width="4"/>
+<path d="M546,217 L621,448 L379,448 L454,217 L650,360 L454,503 L379,272 L621,272 L546,503 L350,360Z" fill="#FAFAFA" stroke="#111111" stroke-width="2"/>
+<circle cx="500" cy="360" r="40" fill="#111111"/>
+</svg>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#6B6B6B">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#6B6B6B">14 / 27</p>
+
+</section>
+</div></div><div class="fr" id="mousgoum"><div class="sc"><section id="mousgoum" data-transition="fade" style="background:#FAFAFA; color:#111111; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:grid; grid-template-columns:600px 1000px; gap:64px">
+<div style="display:flex; flex-direction:column; gap:28px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#595959">12 · Northern Cameroon and Chad</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1.0; letter-spacing:-2px; color:#8A8A8A">A house <span style="color:#111111">laid in rings of mud</span></h2>
+<div style="display:flex; flex-direction:column; gap:8px; border-top:2px solid #111111; padding:24px 0 0 0">
+<p style="font-size:104px; font-weight:800; letter-spacing:-4px; line-height:1.0; color:#111111">3–6 mo.</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#595959">To build one Mousgoum house</p>
+</div>
+<p style="font-size:28px; line-height:1.4; color:#333333">Built of earth with no centering, in rings of mud that narrow as they rise. Ridges on the outside serve as footholds for the upper courses.</p>
+<div style="flex:1"></div>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; line-height:1.35; color:#6B6B6B">DeLancey, Oxford Art Online, 2014 · Nelson, U. of Chicago Press, 2007</p>
+</div>
+<div style="display:flex; align-items:center; justify-content:center">
+<svg aria-label="Section of a shell-shaped earth house built in horizontal rings that narrow toward the top, with ribs on the outside" width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+<path d="M300,660 L300,646 L301,632 L302,618 L303,604 L304,590 L305,576 L306,562 L308,548 L309,534 L311,520 L313,506 L315,492 L317,478 L320,464 L322,450 L325,436 L327,422 L330,408 L333,394 L336,380 L340,366 L343,352 L347,338 L351,324 L355,310 L359,296 L363,282 L368,268 L373,254 L379,240 L384,226 L390,212 L397,198 L404,184 L412,170 L421,156 L432,142 L444,128 L460,114 L500,100 L540,114 L556,128 L568,142 L579,156 L588,170 L596,184 L603,198 L610,212 L616,226 L621,240 L627,254 L632,268 L637,282 L641,296 L645,310 L649,324 L653,338 L657,352 L660,366 L664,380 L667,394 L670,408 L673,422 L675,436 L678,450 L680,464 L683,478 L685,492 L687,506 L689,520 L691,534 L692,548 L694,562 L695,576 L696,590 L697,604 L698,618 L699,632 L700,646 L700,660" fill="#EDEDED" stroke="#FF4F00" stroke-width="4"/>
+<g stroke="#111111" stroke-width="1.5"><line x1="301" y1="620" x2="699" y2="620"/><line x1="304" y1="580" x2="696" y2="580"/><line x1="309" y1="540" x2="691" y2="540"/><line x1="314" y1="500" x2="686" y2="500"/><line x1="320" y1="460" x2="680" y2="460"/><line x1="328" y1="420" x2="672" y2="420"/><line x1="336" y1="380" x2="664" y2="380"/><line x1="346" y1="340" x2="654" y2="340"/><line x1="358" y1="300" x2="642" y2="300"/><line x1="371" y1="260" x2="629" y2="260"/><line x1="387" y1="220" x2="613" y2="220"/><line x1="406" y1="180" x2="594" y2="180"/><line x1="433" y1="140" x2="567" y2="140"/></g>
+<g fill="none" stroke="#111111" stroke-width="3" stroke-dasharray="10 30"><path d="M390,660 L390,632 L391,604 L393,576 L394,548 L396,520 L398,492 L401,464 L404,436 L407,408 L410,380 L414,352 L418,324 L422,296 L427,268 L433,240 L440,212 L447,184 L457,156"/><path d="M500,660 L500,156"/><path d="M610,660 L610,632 L609,604 L607,576 L606,548 L604,520 L602,492 L599,464 L596,436 L593,408 L590,380 L586,352 L582,324 L578,296 L573,268 L567,240 L560,212 L553,184 L543,156"/></g>
+<path d="M470,660 L470,610 C470,590 530,590 530,610 L530,660 Z" fill="#FAFAFA" stroke="#111111" stroke-width="2"/>
+<line x1="160" y1="660" x2="840" y2="660" stroke="#111111" stroke-width="2"/>
+</svg>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#6B6B6B">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#6B6B6B">15 / 27</p>
+
+</section>
+</div></div><div class="fr" id="djenne"><div class="sc"><section id="djenne" data-transition="fade" style="background:#FAFAFA; color:#111111; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:grid; grid-template-columns:600px 1000px; gap:64px">
+<div style="display:flex; flex-direction:column; gap:28px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#595959">13 · Djenné, Mali</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1.0; letter-spacing:-2px; color:#8A8A8A">The largest building <span style="color:#111111">made of mud</span></h2>
+<div style="display:flex; flex-direction:column; gap:8px; border-top:2px solid #111111; padding:24px 0 0 0">
+<p style="font-size:104px; font-weight:800; letter-spacing:-4px; line-height:1.0; color:#111111">1907</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#595959">Great Mosque rebuilt, 1906–07</p>
+</div>
+<p style="font-size:28px; line-height:1.4; color:#333333">Britannica calls it the largest mud construction in the world. The town replasters it every year in a festival, the Crépissage.</p>
+<div style="flex:1"></div>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; line-height:1.35; color:#6B6B6B">UNESCO no. 116 · Britannica · Harvard, Whose Culture?</p>
+</div>
+<div style="display:flex; align-items:center; justify-content:center">
+<svg aria-label="Front elevation of a mud mosque with three tapered towers and rows of wooden sticks projecting from the walls, the towers outlined in orange" width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+<rect x="90" y="640" width="820" height="40" fill="#EDEDED" stroke="#111111" stroke-width="2"/>
+<path d="M140,640 L152,360 L848,360 L860,640 Z" fill="#EDEDED" stroke="#111111" stroke-width="2"/>
+<g fill="#EDEDED" stroke="#111111" stroke-width="2"><path d="M170,360 L172,300 C172,288 188,288 188,300 L190,360 Z"/><path d="M210,360 L212,300 C212,288 228,288 228,300 L230,360 Z"/><path d="M370,360 L372,300 C372,288 388,288 388,300 L390,360 Z"/><path d="M410,360 L412,300 C412,288 428,288 428,300 L430,360 Z"/><path d="M570,360 L572,300 C572,288 588,288 588,300 L590,360 Z"/><path d="M610,360 L612,300 C612,288 628,288 628,300 L630,360 Z"/><path d="M770,360 L772,300 C772,288 788,288 788,300 L790,360 Z"/><path d="M810,360 L812,300 C812,288 828,288 828,300 L830,360 Z"/></g>
+<g fill="#EDEDED" stroke="#FF4F00" stroke-width="4"><path d="M262,640 L275,170 C275,146 325,146 325,170 L338,640 Z"/><path d="M452,640 L468,110 C468,84 532,84 532,110 L548,640 Z"/><path d="M662,640 L675,170 C675,146 725,146 725,170 L738,640 Z"/></g>
+<g stroke="#111111" stroke-width="3"><line x1="260" y1="230" x2="276" y2="230"/><line x1="324" y1="230" x2="340" y2="230"/><line x1="258" y1="300" x2="274" y2="300"/><line x1="326" y1="300" x2="342" y2="300"/><line x1="256" y1="420" x2="270" y2="420"/><line x1="330" y1="420" x2="344" y2="420"/><line x1="660" y1="230" x2="676" y2="230"/><line x1="724" y1="230" x2="740" y2="230"/><line x1="658" y1="300" x2="674" y2="300"/><line x1="726" y1="300" x2="742" y2="300"/><line x1="656" y1="420" x2="670" y2="420"/><line x1="730" y1="420" x2="744" y2="420"/><line x1="450" y1="190" x2="468" y2="190"/><line x1="532" y1="190" x2="550" y2="190"/><line x1="447" y1="270" x2="465" y2="270"/><line x1="535" y1="270" x2="553" y2="270"/><line x1="444" y1="350" x2="462" y2="350"/><line x1="538" y1="350" x2="556" y2="350"/><line x1="441" y1="440" x2="459" y2="440"/><line x1="541" y1="440" x2="559" y2="440"/></g>
+<g stroke="#111111" stroke-width="2"><line x1="170" y1="440" x2="190" y2="440"/><line x1="210" y1="440" x2="230" y2="440"/><line x1="370" y1="440" x2="390" y2="440"/><line x1="410" y1="440" x2="430" y2="440"/><line x1="570" y1="440" x2="590" y2="440"/><line x1="610" y1="440" x2="630" y2="440"/><line x1="770" y1="440" x2="790" y2="440"/><line x1="810" y1="440" x2="830" y2="440"/><line x1="170" y1="530" x2="190" y2="530"/><line x1="210" y1="530" x2="230" y2="530"/><line x1="370" y1="530" x2="390" y2="530"/><line x1="410" y1="530" x2="430" y2="530"/><line x1="570" y1="530" x2="590" y2="530"/><line x1="610" y1="530" x2="630" y2="530"/><line x1="770" y1="530" x2="790" y2="530"/><line x1="810" y1="530" x2="830" y2="530"/></g>
+</svg>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#6B6B6B">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#6B6B6B">16 / 27</p>
+
+</section>
+</div></div><div class="fr" id="baila"><div class="sc"><section id="baila" data-transition="fade" style="background:#FAFAFA; color:#111111; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:grid; grid-template-columns:600px 1000px; gap:64px">
+<div style="display:flex; flex-direction:column; gap:28px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#595959">14 · Southern Zambia</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1.0; letter-spacing:-2px; color:#8A8A8A">A village <span style="color:#111111">built as circles of circles</span></h2>
+<div style="display:flex; flex-direction:column; gap:8px; border-top:2px solid #111111; padding:24px 0 0 0">
+<p style="font-size:104px; font-weight:800; letter-spacing:-4px; line-height:1.0; color:#111111">Ba-ila</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#595959">Settlement studied by Ron Eglash</p>
+</div>
+<p style="font-size:28px; line-height:1.4; color:#333333">A ring of household rings. At the back sits a smaller ring for the chief's family, and inside it the chief's own house.</p>
+<div style="flex:1"></div>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; line-height:1.35; color:#6B6B6B">Eglash, African Fractals, Rutgers University Press, 1999</p>
+</div>
+<div style="display:flex; align-items:center; justify-content:center">
+<svg aria-label="Plan of a village: a large ring of houses open at the front, with a smaller ring at the back and one house at its center in orange" width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+<path d="M382,634 A280,280 0 1 1 618,634" fill="none" stroke="#EDEDED" stroke-width="80"/>
+<path d="M382,634 A280,280 0 1 1 618,634" fill="none" stroke="#111111" stroke-width="30" stroke-linecap="round" stroke-dasharray="0 56"/>
+<circle cx="500" cy="190" r="72" fill="#EDEDED"/>
+<circle cx="500" cy="190" r="72" fill="none" stroke="#111111" stroke-width="14" stroke-linecap="round" stroke-dasharray="0 28.3"/>
+<circle cx="500" cy="190" r="24" fill="#FAFAFA" stroke="#FF4F00" stroke-width="4"/>
+<g stroke="#9A9A9A" stroke-width="2" fill="none"><line x1="500" y1="700" x2="500" y2="630"/><polyline points="488,644 500,630 512,644"/></g>
+</svg>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#6B6B6B">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#6B6B6B">17 / 27</p>
+
+</section>
+</div></div><div class="fr" id="balloon"><div class="sc"><section id="balloon" data-transition="fade" style="background:#0F1012; color:#F0F0F0; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:grid; grid-template-columns:600px 1000px; gap:64px">
+<div style="display:flex; flex-direction:column; gap:28px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#ABABAB">15 · Chicago · 1830s</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1.0; letter-spacing:-2px; color:#7A7A7A">A frame <span style="color:#F0F0F0">of sawn studs and nails</span></h2>
+<div style="display:flex; flex-direction:column; gap:8px; border-top:2px solid #F0F0F0; padding:24px 0 0 0">
+<p style="font-size:104px; font-weight:800; letter-spacing:-4px; line-height:1.0; color:#F0F0F0">1830s</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#ABABAB">Balloon frame spreads from Chicago</p>
+</div>
+<p style="font-size:28px; line-height:1.4; color:#D2D2D2">Light sawn lumber, nailed together in a grid. The Encyclopedia of Chicago calls the single-inventor story a myth. The method evolved over the nineteenth century.</p>
+<div style="flex:1"></div>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; line-height:1.35; color:#9A9A9A">Encyclopedia of Chicago, “Balloon Frame Construction”</p>
+</div>
+<div style="display:flex; align-items:center; justify-content:center">
+<svg aria-label="Elevation of a two-story balloon frame: continuous studs at even spacing, a ribbon board carrying the second floor, and a window opening" width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+<defs><pattern id="s" x="120" y="80" width="40" height="560" patternUnits="userSpaceOnUse"><rect x="0" y="0" width="7" height="560" fill="#D2D2D2"/></pattern></defs>
+<rect x="120" y="80" width="767" height="560" fill="url(#s)"/>
+<rect x="110" y="64" width="787" height="16" fill="#D2D2D2"/>
+<rect x="110" y="640" width="787" height="16" fill="#D2D2D2"/>
+<rect x="110" y="340" width="787" height="12" fill="#D2D2D2"/>
+<g fill="#0F1012" stroke="#D2D2D2" stroke-width="2"><rect x="126" y="322" width="22" height="18"/><rect x="286" y="322" width="22" height="18"/><rect x="446" y="322" width="22" height="18"/><rect x="606" y="322" width="22" height="18"/><rect x="766" y="322" width="22" height="18"/></g>
+<rect x="408" y="420" width="192" height="150" fill="#0F1012"/>
+<rect x="400" y="404" width="208" height="16" fill="#D2D2D2"/>
+<rect x="400" y="570" width="208" height="10" fill="#D2D2D2"/>
+<rect x="400" y="160" width="208" height="120" fill="#0F1012"/>
+<rect x="400" y="146" width="208" height="14" fill="#D2D2D2"/>
+<rect x="400" y="280" width="208" height="10" fill="#D2D2D2"/>
+<line x1="60" y1="656" x2="940" y2="656" stroke="#D2D2D2" stroke-width="2"/>
+</svg>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#9A9A9A">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#9A9A9A">18 / 27</p>
+
+</section>
+</div></div><div class="fr" id="gaudi"><div class="sc"><section id="gaudi" data-transition="fade" style="background:#0F1012; color:#F0F0F0; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:grid; grid-template-columns:600px 1000px; gap:64px">
+<div style="display:flex; flex-direction:column; gap:28px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#ABABAB">16 · Barcelona · 1882–2026</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1.0; letter-spacing:-2px; color:#7A7A7A">A church <span style="color:#F0F0F0">still under construction</span></h2>
+<div style="display:flex; flex-direction:column; gap:8px; border-top:2px solid #F0F0F0; padding:24px 0 0 0">
+<p style="font-size:104px; font-weight:800; letter-spacing:-4px; line-height:1.0; color:#F0F0F0">144</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#ABABAB">Years since the first stone · arithmetic</p>
+</div>
+<p style="font-size:28px; line-height:1.4; color:#D2D2D2">Gaudí took over the Sagrada Família in 1883. The cross on its Tower of Jesus Christ went up in February 2026. At 172.5 m it is the tallest church in the world.</p>
+<div style="flex:1"></div>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; line-height:1.35; color:#9A9A9A">sagradafamilia.org · Vatican News, 20 Feb 2026</p>
+</div>
+<div style="display:flex; align-items:center; justify-content:center">
+<svg aria-label="Hanging chains above and the same curves turned upside down as standing arches below, the arches in orange" width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+<line x1="80" y1="60" x2="920" y2="60" stroke="#D2D2D2" stroke-width="2"/>
+<g fill="none" stroke="#7A7A7A" stroke-width="2" stroke-dasharray="8 8" transform="translate(0,380) scale(1,-0.5)"><path vector-effect="non-scaling-stroke" d="M120,640 L152,531 L183,439 L215,363 L247,300 L278,248 L310,205 L342,171 L373,145 L405,125 L437,111 L468,103 L500,100 L532,103 L563,111 L595,125 L627,145 L658,171 L690,205 L722,248 L753,300 L785,363 L817,439 L848,531 L880,640"/><path vector-effect="non-scaling-stroke" d="M200,640 L225,550 L250,476 L275,413 L300,362 L325,319 L350,285 L375,257 L400,236 L425,220 L450,209 L475,202 L500,200 L525,202 L550,209 L575,220 L600,236 L625,257 L650,285 L675,319 L700,362 L725,413 L750,476 L775,550 L800,640"/><path vector-effect="non-scaling-stroke" d="M280,640 L298,570 L317,512 L335,463 L353,424 L372,391 L390,365 L408,344 L427,327 L445,315 L463,307 L482,302 L500,300 L518,302 L537,307 L555,315 L573,327 L592,344 L610,365 L628,391 L647,424 L665,463 L683,512 L702,570 L720,640"/><path vector-effect="non-scaling-stroke" d="M360,640 L372,589 L383,547 L395,513 L407,485 L418,462 L430,444 L442,430 L453,419 L465,410 L477,404 L488,401 L500,400 L512,401 L523,404 L535,410 L547,419 L558,430 L570,444 L582,462 L593,485 L605,513 L617,547 L628,589 L640,640"/></g>
+<g fill="none" stroke="#FF4F00" stroke-width="4" transform="translate(0,340) scale(1,0.5)"><path vector-effect="non-scaling-stroke" d="M120,640 L152,531 L183,439 L215,363 L247,300 L278,248 L310,205 L342,171 L373,145 L405,125 L437,111 L468,103 L500,100 L532,103 L563,111 L595,125 L627,145 L658,171 L690,205 L722,248 L753,300 L785,363 L817,439 L848,531 L880,640"/><path vector-effect="non-scaling-stroke" d="M200,640 L225,550 L250,476 L275,413 L300,362 L325,319 L350,285 L375,257 L400,236 L425,220 L450,209 L475,202 L500,200 L525,202 L550,209 L575,220 L600,236 L625,257 L650,285 L675,319 L700,362 L725,413 L750,476 L775,550 L800,640"/><path vector-effect="non-scaling-stroke" d="M280,640 L298,570 L317,512 L335,463 L353,424 L372,391 L390,365 L408,344 L427,327 L445,315 L463,307 L482,302 L500,300 L518,302 L537,307 L555,315 L573,327 L592,344 L610,365 L628,391 L647,424 L665,463 L683,512 L702,570 L720,640"/><path vector-effect="non-scaling-stroke" d="M360,640 L372,589 L383,547 L395,513 L407,485 L418,462 L430,444 L442,430 L453,419 L465,410 L477,404 L488,401 L500,400 L512,401 L523,404 L535,410 L547,419 L558,430 L570,444 L582,462 L593,485 L605,513 L617,547 L628,589 L640,640"/></g>
+<line x1="80" y1="660" x2="920" y2="660" stroke="#D2D2D2" stroke-width="2"/>
+<g fill="#D2D2D2"><circle cx="500" cy="330" r="6"/><circle cx="500" cy="280" r="6"/><circle cx="500" cy="230" r="6"/><circle cx="500" cy="180" r="6"/></g>
+</svg>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#9A9A9A">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#9A9A9A">19 / 27</p>
+
+</section>
+</div></div><div class="fr" id="twobyfour"><div class="sc"><section id="twobyfour" data-transition="fade" style="background:#0F1012; color:#F0F0F0; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:grid; grid-template-columns:600px 1000px; gap:64px">
+<div style="display:flex; flex-direction:column; gap:28px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#ABABAB">17 · United States · 1924</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1.0; letter-spacing:-2px; color:#7A7A7A">The two-by-four <span style="color:#F0F0F0">becomes a national standard</span></h2>
+<div style="display:flex; flex-direction:column; gap:8px; border-top:2px solid #F0F0F0; padding:24px 0 0 0">
+<p style="font-size:104px; font-weight:800; letter-spacing:-4px; line-height:1.0; color:#F0F0F0">1½ × 3½</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#ABABAB">Inches · a dry 2x4 today</p>
+</div>
+<p style="font-size:28px; line-height:1.4; color:#D2D2D2">The Commerce Department's lumber standard took effect on 1 July 1924. It set the 2x4 at 1⅝ by 3⅝ inches. The current standard sets it smaller.</p>
+<div style="flex:1"></div>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; line-height:1.35; color:#9A9A9A">Forest Products Laboratory, 1964 · ALSC, PS 20-20</p>
+</div>
+<div style="display:flex; align-items:center; justify-content:center">
+<svg aria-label="End-grain section of a two-by-four: the nominal 2 by 4 inch outline dashed, the 1924 size outlined, and today's 1.5 by 3.5 inch board filled" width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+<rect x="380" y="120" width="240" height="480" fill="none" stroke="#7A7A7A" stroke-width="2" stroke-dasharray="10 8"/>
+<rect x="402" y="142" width="196" height="436" fill="none" stroke="#ABABAB" stroke-width="2"/>
+<rect x="410" y="150" width="180" height="420" fill="#1D1F23" stroke="#F0F0F0" stroke-width="3"/>
+<g fill="none" stroke="#3D4046" stroke-width="2"><path d="M500,360 m-30,0 a30,40 0 1,0 60,0 a30,40 0 1,0 -60,0"/><path d="M500,360 m-60,0 a60,90 0 1,0 120,0 a60,90 0 1,0 -120,0"/><path d="M500,360 m-85,0 a85,150 0 1,0 170,0 a85,150 0 1,0 -170,0"/></g>
+<g stroke="#D2D2D2" stroke-width="2"><line x1="410" y1="630" x2="590" y2="630"/><line x1="410" y1="618" x2="410" y2="642"/><line x1="590" y1="618" x2="590" y2="642"/><line x1="660" y1="150" x2="660" y2="570"/><line x1="648" y1="150" x2="672" y2="150"/><line x1="648" y1="570" x2="672" y2="570"/></g>
+</svg>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#9A9A9A">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#9A9A9A">20 / 27</p>
+
+</section>
+</div></div><div class="fr" id="levittown"><div class="sc"><section id="levittown" data-transition="fade" style="background:#0F1012; color:#F0F0F0; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:grid; grid-template-columns:600px 1000px; gap:64px">
+<div style="display:flex; flex-direction:column; gap:28px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#ABABAB">18 · Levittown, New York</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1.0; letter-spacing:-2px; color:#7A7A7A">Houses <span style="color:#F0F0F0">built on an assembly line</span></h2>
+<div style="display:flex; flex-direction:column; gap:8px; border-top:2px solid #F0F0F0; padding:24px 0 0 0">
+<p style="font-size:104px; font-weight:800; letter-spacing:-4px; line-height:1.0; color:#F0F0F0">17,447</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#ABABAB">Houses, 1947 to 1951</p>
+</div>
+<p style="font-size:28px; line-height:1.4; color:#D2D2D2">Crews built 18 houses a day in 1947 and 30 a day by July 1948. The work was split into 27 steps.</p>
+<div style="flex:1"></div>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; line-height:1.35; color:#9A9A9A">Levittown Public Library, Facts and Trivia</p>
+</div>
+<div style="display:flex; align-items:center; justify-content:center">
+<svg aria-label="Rows of identical small houses in elevation, repeated in a grid" width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+<defs><pattern id="h" x="0" y="55" width="125" height="122" patternUnits="userSpaceOnUse"><rect x="12" y="50" width="100" height="56" fill="#1D1F23" stroke="#D2D2D2" stroke-width="2"/><polygon points="8,50 62,18 116,50" fill="#1D1F23" stroke="#D2D2D2" stroke-width="2"/><rect x="54" y="74" width="16" height="32" fill="#D2D2D2"/><rect x="24" y="64" width="18" height="16" fill="none" stroke="#D2D2D2" stroke-width="2"/><rect x="82" y="64" width="18" height="16" fill="none" stroke="#D2D2D2" stroke-width="2"/><line x1="0" y1="106" x2="125" y2="106" stroke="#7A7A7A" stroke-width="2"/></pattern></defs>
+<rect x="0" y="55" width="1000" height="610" fill="url(#h)"/>
+</svg>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#9A9A9A">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#9A9A9A">21 / 27</p>
+
+</section>
+</div></div><div class="fr" id="sydney"><div class="sc"><section id="sydney" data-transition="fade" style="background:#0F1012; color:#F0F0F0; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:grid; grid-template-columns:600px 1000px; gap:64px">
+<div style="display:flex; flex-direction:column; gap:28px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#ABABAB">19 · Sydney · 1959–1973</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1.0; letter-spacing:-2px; color:#7A7A7A">The Opera House, <span style="color:#F0F0F0">estimate and final cost</span></h2>
+<div style="display:flex; flex-direction:row; gap:0px; border-top:2px solid #F0F0F0; padding:24px 0 0 0">
+<div style="display:flex; flex-direction:column; gap:8px; padding:0 32px 0 0"><p style="font-size:72px; font-weight:800; letter-spacing:-3px; line-height:1.0; color:#7A7A7A">A$7M</p><p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#ABABAB">Estimate</p></div>
+<div style="display:flex; flex-direction:column; gap:8px; padding:0 0 0 32px; border-left:1px solid #3D4046"><p style="font-size:72px; font-weight:800; letter-spacing:-3px; line-height:1.0; color:#F0F0F0">A$102M</p><p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#ABABAB">Final cost</p></div>
+</div>
+<p style="font-size:28px; line-height:1.4; color:#D2D2D2">Completion was first expected in 1963. The building opened in 1973. State lotteries paid for it.</p>
+<div style="flex:1"></div>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; line-height:1.35; color:#9A9A9A">NSW Government, Treasury · UNESCO no. 166</p>
+</div>
+<div style="display:flex; align-items:center; justify-content:center">
+<svg aria-label="Elevation of four concrete shells of decreasing size on a podium, outlined in orange" width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+<g fill="#1D1F23" stroke="#FF4F00" stroke-width="4"><path d="M140,600 Q200,300 330,170 Q360,400 420,600 Z"/><path d="M300,600 Q370,330 500,240 Q520,430 560,600 Z"/><path d="M470,600 Q540,380 650,310 Q670,470 700,600 Z"/><path d="M640,600 Q700,430 800,380 Q810,500 840,600 Z"/></g>
+<rect x="90" y="600" width="820" height="56" fill="#1D1F23" stroke="#D2D2D2" stroke-width="2"/>
+<g stroke="#3D4046" stroke-width="2"><line x1="90" y1="620" x2="910" y2="620"/><line x1="90" y1="638" x2="910" y2="638"/></g>
+</svg>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#9A9A9A">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#9A9A9A">22 / 27</p>
+
+</section>
+</div></div><div class="fr" id="flintstone"><div class="sc"><section id="flintstone" data-transition="fade" style="background:#0F1012; color:#F0F0F0; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:grid; grid-template-columns:600px 1000px; gap:64px">
+<div style="display:flex; flex-direction:column; gap:28px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#ABABAB">20 · Hillsborough, California</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1.0; letter-spacing:-2px; color:#7A7A7A">Concrete <span style="color:#F0F0F0">sprayed over balloons</span></h2>
+<div style="display:flex; flex-direction:column; gap:8px; border-top:2px solid #F0F0F0; padding:24px 0 0 0">
+<p style="font-size:104px; font-weight:800; letter-spacing:-4px; line-height:1.0; color:#F0F0F0">1976</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#ABABAB">Built by William Nicholson</p>
+</div>
+<p style="font-size:28px; line-height:1.4; color:#D2D2D2">Shotcrete sprayed over mesh and rebar on inflated balloons. Known as the Flintstone House. The town sued the owner in 2019 over added dinosaurs and settled in 2021.</p>
+<div style="flex:1"></div>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; line-height:1.35; color:#9A9A9A">The Architect's Newspaper, Mar 2019 · CNN, Jun 2021</p>
+</div>
+<div style="display:flex; align-items:center; justify-content:center">
+<svg aria-label="Section through three concrete domes of different sizes, each formed over a balloon shown dashed" width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" stroke="#7A7A7A" stroke-width="2" stroke-dasharray="8 8"><path d="M150,600 A180,180 0 0 1 510,600"/><path d="M505,600 A130,130 0 0 1 765,600"/><path d="M752,600 A84,84 0 0 1 920,600"/></g>
+<g fill="none" stroke="#FF4F00" stroke-width="5"><path d="M130,600 A200,200 0 0 1 530,600"/><path d="M490,600 A150,150 0 0 1 790,600"/><path d="M736,600 A100,100 0 0 1 936,600"/></g>
+<rect x="296" y="520" width="68" height="80" fill="#1D1F23" stroke="#D2D2D2" stroke-width="2"/>
+<line x1="60" y1="600" x2="960" y2="600" stroke="#D2D2D2" stroke-width="2"/>
+</svg>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#9A9A9A">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#9A9A9A">23 / 27</p>
+
+</section>
+</div></div><div class="fr" id="curves"><div class="sc"><section id="curves" data-transition="fade" style="background:#FAFAFA; color:#111111; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:grid; grid-template-columns:600px 1000px; gap:64px">
+<div style="display:flex; flex-direction:column; gap:28px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#595959">21 · Neuroaesthetics · 2013</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1.0; letter-spacing:-2px; color:#8A8A8A">Curved rooms <span style="color:#111111">rated more beautiful</span></h2>
+<div style="display:flex; flex-direction:column; gap:8px; border-top:2px solid #111111; padding:24px 0 0 0">
+<p style="font-size:104px; font-weight:800; letter-spacing:-4px; line-height:1.0; color:#111111">18</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:#595959">Participants, scanned by fMRI</p>
+</div>
+<p style="font-size:28px; line-height:1.4; color:#333333">Shown photographs of rooms, people were more likely to call curvilinear spaces beautiful than rectilinear ones. Contour did not change whether they chose to enter.</p>
+<div style="flex:1"></div>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; line-height:1.35; color:#6B6B6B">Vartanian et al., PNAS 110, suppl. 2, 2013</p>
+</div>
+<div style="display:flex; align-items:center; justify-content:center">
+<svg aria-label="Two room plans side by side: a rectangular room in black and a curved room in orange" width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+<rect x="60" y="170" width="380" height="380" fill="#EDEDED" stroke="#111111" stroke-width="4"/>
+<g fill="#FAFAFA" stroke="#111111" stroke-width="2"><rect x="110" y="220" width="120" height="70"/><rect x="290" y="420" width="100" height="80"/><rect x="110" y="440" width="60" height="60"/></g>
+<rect x="210" y="546" width="80" height="8" fill="#FAFAFA"/>
+<path d="M560,360 C560,220 660,160 780,170 C900,180 950,270 940,370 C930,480 860,560 740,555 C620,550 560,480 560,360 Z" fill="#EDEDED" stroke="#FF4F00" stroke-width="4"/>
+<g fill="#FAFAFA" stroke="#111111" stroke-width="2"><ellipse cx="700" cy="270" rx="70" ry="40"/><ellipse cx="840" cy="440" rx="54" ry="44"/><circle cx="660" cy="450" r="32"/></g>
+<rect x="700" y="549" width="80" height="12" fill="#FAFAFA"/>
+</svg>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#6B6B6B">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#6B6B6B">24 / 27</p>
+
+</section>
+</div></div><div class="fr" id="icon"><div class="sc"><section id="icon" data-transition="fade" style="background:#FAFAFA; color:#111111; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:flex; flex-direction:column; gap:56px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#595959">22 · Austin, Texas · 2018–2027</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:72px; font-weight:800; line-height:1.0; letter-spacing:-2.5px; color:#8A8A8A; width:1664px">ICON's printers, <span style="color:#111111">from one house to a product line</span></h2>
+<div style="display:flex; flex-direction:row; align-items:center; gap:0px">
+<x-shape kind="ellipse" style="width:24px; height:24px; background:#FF4F00"></x-shape><div style="flex:1; height:2px; background:#111111"></div><x-shape kind="ellipse" style="width:24px; height:24px; background:#FF4F00"></x-shape><div style="flex:1; height:2px; background:#111111"></div><x-shape kind="ellipse" style="width:24px; height:24px; background:#FF4F00"></x-shape><div style="flex:1; height:2px; background:#111111"></div><x-shape kind="ellipse" style="width:24px; height:24px; background:#FF4F00"></x-shape><div style="flex:1; height:2px; background:#111111"></div><x-shape kind="ellipse" style="width:24px; height:24px; background:#FAFAFA; border:3px solid #FF4F00"></x-shape>
+</div>
+<div style="display:grid; grid-template-columns:1fr 1fr 1fr 1fr 1fr; gap:0px">
+<div style="display:flex; flex-direction:column; gap:12px; padding:0 28px 0 0"><p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:700; letter-spacing:2px; color:#595959">2018</p><p style="font-size:52px; font-weight:800; letter-spacing:-2px; line-height:1.0">350 sq ft</p><p style="font-size:30px; line-height:1.35; color:#333333">First permitted 3D-printed home in the country, shown at SXSW. Printed in under 48 hours.</p><p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#6B6B6B">Texas Architect · CultureMap</p></div>
+<div style="display:flex; flex-direction:column; gap:12px; padding:0 28px; border-left:1px solid #E4E4E4"><p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:700; letter-spacing:2px; color:#595959">2024</p><p style="font-size:52px; font-weight:800; letter-spacing:-2px; line-height:1.0">100 homes</p><p style="font-size:30px; line-height:1.35; color:#333333">Wolf Ranch in Georgetown, Texas, with Lennar and BIG.</p><p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#6B6B6B">New Atlas</p></div>
+<div style="display:flex; flex-direction:column; gap:12px; padding:0 28px; border-left:1px solid #E4E4E4"><p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:700; letter-spacing:2px; color:#595959">2024</p><p style="font-size:52px; font-weight:800; letter-spacing:-2px; line-height:1.0">60+</p><p style="font-size:30px; line-height:1.35; color:#333333">Designs in CODEX, unveiled with the Phoenix printer on 12 March.</p><p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#6B6B6B">ICON newsroom</p></div>
+<div style="display:flex; flex-direction:column; gap:12px; padding:0 28px; border-left:1px solid #E4E4E4"><p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:700; letter-spacing:2px; color:#595959">2026</p><p style="font-size:52px; font-weight:800; letter-spacing:-2px; line-height:1.0">$899K</p><p style="font-size:30px; line-height:1.35; color:#333333">Starting price of Titan, a printer sold to builders.</p><p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#6B6B6B">Axios, Mar 2026</p></div>
+<div style="display:flex; flex-direction:column; gap:12px; padding:0 0 0 28px; border-left:1px solid #E4E4E4"><p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:700; letter-spacing:2px; color:#595959">2027</p><p style="font-size:52px; font-weight:800; letter-spacing:-2px; line-height:1.0">Marfa</p><p style="font-size:30px; line-height:1.35; color:#333333">El Cosmico's new campus, printed with ICON, opens.</p><p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#6B6B6B">elcosmico.com</p></div>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#6B6B6B">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#6B6B6B">25 / 27</p>
+
+</section>
+</div></div><div class="fr" id="cost"><div class="sc"><section id="cost" data-transition="fade" style="background:#FAFAFA; color:#111111; font-family:'Archivo', Arial, sans-serif; padding:128px 128px 160px; display:grid; grid-template-columns:760px 840px; gap:64px">
+<div style="display:flex; flex-direction:column; gap:32px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#595959">23 · The cost of a curve</p>
+<h2 style="font-family:'Archivo', Arial, sans-serif; font-size:64px; font-weight:800; line-height:1.0; letter-spacing:-2px; color:#8A8A8A">Formwork <span style="color:#111111">against a toolpath</span></h2>
+<div style="display:flex; flex-direction:column; gap:12px; border-top:2px solid #111111; padding:24px 0 0 0">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:#595959">Cast in forms</p>
+<p style="font-size:30px; line-height:1.35; color:#111111">“Very expensive, one-of-a-kind formwork, which can often not be reused or even recycled.”</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#6B6B6B">ETH Zurich, on curved concrete walls</p>
+</div>
+<div style="display:flex; flex-direction:column; gap:12px; border-top:2px solid #111111; padding:24px 0 0 0">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:#595959">Printed</p>
+<p style="font-size:30px; line-height:1.35; color:#111111">“3D printing can produce a curved wall for the same cost as a straight one.”</p>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#6B6B6B">Texas Architect, May 2023</p>
+</div>
+</div>
+<div style="display:flex; align-items:center; justify-content:center">
+<svg aria-label="Plan of two printed walls: a straight toolpath in black and a curved toolpath in orange, each made of the same stacked beads" width="840" height="720" viewBox="0 0 840 720" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" stroke="#111111" stroke-width="10" stroke-linecap="round"><line x1="60" y1="150" x2="780" y2="150"/><line x1="60" y1="190" x2="780" y2="190"/></g>
+<g fill="none" stroke="#9A9A9A" stroke-width="2" stroke-dasharray="6 8"><line x1="60" y1="170" x2="780" y2="170"/></g>
+<rect x="770" y="118" width="40" height="104" fill="#FAFAFA" stroke="#111111" stroke-width="2"/>
+<g fill="none" stroke="#FF4F00" stroke-width="10" stroke-linecap="round"><path d="M60,420 C200,300 320,300 420,420 S640,540 780,420"/><path d="M60,460 C200,340 320,340 420,460 S640,580 780,460"/></g>
+<g fill="none" stroke="#9A9A9A" stroke-width="2" stroke-dasharray="6 8"><path d="M60,440 C200,320 320,320 420,440 S640,560 780,440"/></g>
+<rect x="770" y="388" width="40" height="104" fill="#FAFAFA" stroke="#111111" stroke-width="2"/>
+<g fill="#EDEDED" stroke="#111111" stroke-width="2"><rect x="340" y="610" width="40" height="18" rx="9"/><rect x="340" y="628" width="40" height="18" rx="9"/><rect x="340" y="646" width="40" height="18" rx="9"/><rect x="460" y="610" width="40" height="18" rx="9"/><rect x="460" y="628" width="40" height="18" rx="9"/><rect x="460" y="646" width="40" height="18" rx="9"/></g>
+<line x1="300" y1="664" x2="540" y2="664" stroke="#111111" stroke-width="2"/>
+</svg>
+</div>
+<p style="position:absolute; left:128px; bottom:64px; width:1000px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#6B6B6B">A history of construction in curves</p>
+<p style="position:absolute; right:128px; bottom:64px; width:300px; text-align:right; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; color:#6B6B6B">26 / 27</p>
+
+</section>
+</div></div><div class="fr" id="close"><div class="sc"><section id="close" data-transition="fade" style="background:#0F1012; color:#F0F0F0; font-family:'Archivo', Arial, sans-serif; padding:128px; display:flex; flex-direction:column; justify-content:start; gap:40px">
+<svg aria-label="Layered beads of a printed wall bending in a long curve" width="1920" height="1080" viewBox="0 0 1920 1080" style="position:absolute; left:0; top:0; width:1920px; height:1080px" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke-linecap="round"><path d="M-40,860 C340,700 620,1000 980,840 S1560,660 1960,820" stroke="#FF4F00" stroke-width="5"/><path d="M-40,874 C340,714 620,1014 980,854 S1560,674 1960,834" stroke="#FF4F00" stroke-width="5" opacity="0.8"/><path d="M-40,888 C340,728 620,1028 980,868 S1560,688 1960,848" stroke="#FF4F00" stroke-width="5" opacity="0.62"/><path d="M-40,902 C340,742 620,1042 980,882 S1560,702 1960,862" stroke="#FF4F00" stroke-width="5" opacity="0.46"/><path d="M-40,916 C340,756 620,1056 980,896 S1560,716 1960,876" stroke="#FF4F00" stroke-width="5" opacity="0.32"/><path d="M-40,930 C340,770 620,1070 980,910 S1560,730 1960,890" stroke="#FF4F00" stroke-width="5" opacity="0.2"/><path d="M-40,846 C340,686 620,986 980,826 S1560,646 1960,806" stroke="#FF4F00" stroke-width="5" opacity="0.8"/><path d="M-40,832 C340,672 620,972 980,812 S1560,632 1960,792" stroke="#FF4F00" stroke-width="5" opacity="0.62"/><path d="M-40,818 C340,658 620,958 980,798 S1560,618 1960,778" stroke="#FF4F00" stroke-width="5" opacity="0.46"/><path d="M-40,804 C340,644 620,944 980,784 S1560,604 1960,764" stroke="#FF4F00" stroke-width="5" opacity="0.32"/><path d="M-40,790 C340,630 620,930 980,770 S1560,590 1960,750" stroke="#FF4F00" stroke-width="5" opacity="0.2"/></g></svg>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#ABABAB">The line</p>
+<h1 style="font-family:'Archivo', Arial, sans-serif; font-size:132px; font-weight:800; line-height:0.94; letter-spacing:-5px; color:#7A7A7A; width:1500px">Sell what <span style="color:#F0F0F0">only a printer can build</span></h1>
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; font-weight:500; letter-spacing:2px; text-transform:uppercase; color:#D2D2D2">Héctor Ibarzábal Rodríguez · Rice MBA 2027 · Spec concept, not affiliated with ICON</p>
+
+</section>
+</div></div></main>
+<script>
+(function(){const fit=()=>document.querySelectorAll('.fr').forEach(f=>{f.firstElementChild.style.transform='scale('+(f.clientWidth/1920)+')';});
+addEventListener('resize',fit);fit();
+const fr=[...document.querySelectorAll('.fr')];
+addEventListener('keydown',e=>{if(!['ArrowRight','ArrowLeft','PageDown','PageUp',' '].includes(e.key))return;
+const y=scrollY+8,i=fr.findIndex(f=>f.offsetTop>y);let cur=i<0?fr.length-1:Math.max(0,i-1);
+const n=(e.key==='ArrowLeft'||e.key==='PageUp')?Math.max(0,cur-1):Math.min(fr.length-1,cur+1);
+fr[n].scrollIntoView({behavior:'smooth',block:'start'});e.preventDefault();});})();
+</script></body></html>
