@@ -1,6 +1,6 @@
 # Curves Deck
 
-A History of Construction in Curves, by Héctor Ibarzábal. The page only; its source is private.
-A spec concept, not affiliated with ICON.
+A history of construction in curves, by Héctor Ibarzábal. The page only; its source is private.
+Sample, not an ICON document.
 
 All rights reserved.
